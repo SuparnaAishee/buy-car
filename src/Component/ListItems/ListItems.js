@@ -4,9 +4,14 @@ const ListItems = (props) => {
   const { name } = props.clickProduct;
   return (
     <div>
-      <p>
-        <b>*</b> {name}
-      </p>
+      {name ? (
+        <p>
+          <b>*</b> {name}
+        </p>
+      ) : (
+        <div></div>
+      )}
+      
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ListItems from "../CartProduct/ListItems";
+import ListItems from "../ListItems/ListItems";
 import Item from "../Item/Item";
 import RandomSelectedProduct from "../RandomSelectedProduct/RandomSelectedProduct";
 import "./Items.css";
