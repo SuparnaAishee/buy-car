@@ -1,0 +1,30 @@
+.card-picture{
+    width: 250px;
+    margin: 5px 40px;
+}
+.card-info h5{
+    padding-left: 10px;
+  
+}
+.card{
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+.cart-btn{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(237, 182, 100);
+    border: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart-btn p{
+    margin-right:6px;
+}
